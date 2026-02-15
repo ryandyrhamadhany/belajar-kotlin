@@ -1,0 +1,7 @@
+fundamental kotlin
+
+ - var, val, basic data type
+ - data type conversion toInt, toLong dll
+ - arithmetic operators, assignment operators, unary increment/decrement operators, comparison/equality operators, logical operators, in/!in operators, index access operator, invoke operators, bitwise operators,
+ - expresion, statements, blocks
+ - standard input/output : print/println, readline()/scanner
