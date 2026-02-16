@@ -5,3 +5,14 @@ fundamental kotlin
  - arithmetic operators, assignment operators, unary increment/decrement operators, comparison/equality operators, logical operators, in/!in operators, index access operator, invoke operators, bitwise operators,
  - expresion, statements, blocks
  - standard input/output : print/println, readline()/scanner
+
+conditional
+
+ - if else if kotlin version
+ - when kotlin
+ - while loop, do while loop, for loop nothing for loop traditional in kotlin, break, continue, labeled break/continue
+
+functional
+
+ - basic function, reguler function, return value function, infix function, default/named argument function
+ - reguler recursion, tail recursion

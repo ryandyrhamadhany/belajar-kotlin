@@ -1,63 +1,30 @@
 fun main() {
-    val number = -10
+    // standard library function
+    val number = 5.5
+    println("Result = ${Math.sqrt(number)}")
 
-    val result = if (number > 0) { // if expression
-        "Positive Number"
-    }else{
-        "Negative Number"
-    }
+    callMe()
 
-    val result2 = if (number > 0) "Positive Number" else "Negative Number"
+    val number1 = 12.2
+    val number2 = 3.4
+    val result: Int
+    result = addNumbers(number1, number2)
+    println("Result = $result")
 
-    println(result2)
-
-    // ======================================================================
-
-    val a = -9
-    val b = -11
-
-    val max = if (a > b){
-        println("$a is greater than $b")
-        println("max variable holds value of a.")
-        a
-    }else{
-        println("$a is greater than $b")
-        println("max variable holds value of b.")
-        b
-    }
-
-    println("max = $max")
-
-    // ========================================================================
-
-    val numberAgain = 0
-
-    val resultAgain = if (numberAgain > 0)
-        "Positif Number"
-    else if (numberAgain < 0)
-        "Negatif Number"
-    else
-        "Zero"
-
-    println("number is $resultAgain")
-
-    // =========================================================================
-
-    val n1 = 3
-    val n2 = 5
-    val n3 = -2
-
-    val maxAgain = if (n1 > n2){
-        if (n1 > n3)
-            n1
-        else
-            n3
-    }else{
-        if (n2 > n3)
-            n2
-        else
-            n3
-    }
-
-    println("maxAgain = $maxAgain")
+    println(getName("Ryandy","Rhamadhany"))
+    println(getName2("Ryandy","Okeh"))
 }
+
+fun callMe(){ // reguler function
+    println("Printing from callMe() function.")
+    println("This is cool (still printing from inside).")
+}
+
+fun addNumbers(n1: Double, n2 : Double): Int{ // return and parameter function
+    val sum = n1 + n2
+    val sumInteger = sum.toInt()
+    return sumInteger
+}
+
+fun getName(firstName: String, lastName: String): String = "$firstName $lastName"
+fun getName2(firstName: String, lastName: String) = "$firstName $lastName"
