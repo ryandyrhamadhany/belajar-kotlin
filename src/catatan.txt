@@ -26,3 +26,8 @@ OOP
  - abstrct class and function
  - Interface
  - basic inner class, kotlin inner class
+ - data class kotlin
+ - object declarations, expression
+ - companion object kotlin
+ - extension functions
+ - operator overloading
