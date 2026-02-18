@@ -15,4 +15,14 @@ conditional
 functional
 
  - basic function, reguler function, return value function, infix function, default/named argument function
- - reguler recursion, tail recursion
+ - reguler recursion, tail recursion\
+
+
+OOP
+ - Basic class Object, constructor, constructor primary, initializer block, seccondary constructor
+ - getter setter
+ - inheritance and overide property/function
+ - visibility, default public, private, internal
+ - abstrct class and function
+ - Interface
+ - basic inner class, kotlin inner class
