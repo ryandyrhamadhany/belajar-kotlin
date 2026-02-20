@@ -19,15 +19,19 @@ functional
 
 
 OOP
- - Basic class Object, constructor, constructor primary, initializer block, seccondary constructor
+ - Basic class, constructor, constructor primary, initializer block, seccondary constructor
  - getter setter
  - inheritance and overide property/function
  - visibility, default public, private, internal
  - abstrct class and function
- - Interface
+ - interface
  - basic inner class, kotlin inner class
  - data class kotlin
  - object declarations, expression
  - companion object kotlin
  - extension functions
  - operator overloading
+
+aditional kotlin
+ - lambda function
+ - high order Function
